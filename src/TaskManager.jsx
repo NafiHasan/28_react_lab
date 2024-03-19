@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Card, Container, Form } from 'react-bootstrap';
-import './TaskManager.css'; // Import custom CSS file
+import './TaskManager.css';
 
 function TaskManager() {
   const [tasks, setTasks] = useState([]);
