@@ -1,12 +1,12 @@
 import React from 'react';
-import TaskManager from './TaskManager'; // Import the TaskManager component
+import TaskManager from './TaskManager'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <TaskManager /> {/* Render the TaskManager component */}
+      <TaskManager /> {}
     </div>
   );
 }
